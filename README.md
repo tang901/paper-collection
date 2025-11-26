@@ -14,7 +14,6 @@ A comprehensive collection of papers for literature review and research purposes
 
 *Methods that utilize external models or proxies for data selection.*
 
-### External Model Based Approaches
 - A Bayesian Approach to Data Point Selection
 - Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task
 - Active Sentence Learning by Adversarial Uncertainty Sampling in Discrete Space
@@ -80,6 +79,7 @@ A comprehensive collection of papers for literature review and research purposes
 - T-SHIRT: Token-Selective Hierarchical Data Selection for Instruction Tuning
 - TACOS: Open Tagging and Comparative Scoring for Instruction Fine-Tuning Data Selection
 - TAROT: Targeted Data Selection via Optimal Transport
+- Task-Specific Data Selection for Instruction Tuning via Monosemantic Neuronal Activations
 - The Best of Both Worlds: Bridging Quality and Diversity in Data Selection with Bipartite Graph
 - Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning
 - ToReMi: Topic-Aware Data Reweighting for Dynamic Pre-Training Data Selection
@@ -88,6 +88,8 @@ A comprehensive collection of papers for literature review and research purposes
 - Decoding Data Quality via Synthetic Corruptions: Embedding-guided Pruning of Code Data
 - Data-efficient Fine-tuning for LLM-based Recommendation
 - #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models
+- D2 Pruning: Message Passing for Balancing Diversity and Difficulty in Data Pruning
+- Can Data Diversity Enhance Learning Generalization?
 
 ---
 
@@ -95,19 +97,18 @@ A comprehensive collection of papers for literature review and research purposes
 
 *Methods that do not rely on external models for data selection.*
 
-### Uncertainty-Based Methods
 - Comprehensive Benchmarking of Entropy and Margin Based Scoring Metrics for Data Selection
+- Improving Influence-based Instruction Tuning Data Selection for Balanced Learning of Diverse Capabilities
+- 3DS: Decomposed Difficulty Data Selection's Case Study on LLM Medical Domain Adaptation
+- Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection
+- Boosting LLM via Learning from Data Iteratively and Selectively
+- CLUES: Collaborative High-Quality Data Selection for LLMs via Training Dynamics
+- ClusterUCB: Efficient Gradient-Based Data Selection for Targeted Fine-Tuning of LLMs
 - Fine-Tuning Language Models via Epistemic Neural Networks
-- GPT-4o as the Gold Standard: A Scalable and General Purpose Approach to Filter Language Model Pretraining Data
 - STAR: Constraint LoRA with Dynamic Active Learning for Data-Efficient Fine-Tuning of Large Language Models
 - UFO-RL: Uncertainty-Focused Optimization for Efficient Reinforcement Learning Data Selection
 - Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning
 - Reasoning under Uncertainty: Efficient LLM Inference via Unsupervised Confidence Dilution and Convergent Adaptive Sampling
-
-### Gradient-Based Methods
-- Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection
-- CLUES: Collaborative High-Quality Data Selection for LLMs via Training Dynamics
-- ClusterUCB: Efficient Gradient-Based Data Selection for Targeted Fine-Tuning of LLMs
 - Efficient Data Selection at Scale via Influence Distillation
 - G-DIG: Towards Gradient-based Diverse and High-quality Instruction Data Selection for Machine Translation
 - Get more for less: Principled Data Selection for Warming Up Fine-Tuning in LLMs
@@ -117,13 +118,8 @@ A comprehensive collection of papers for literature review and research purposes
 - ProDS: Preference-oriented Data Selection for Instruction Tuning
 - TAGCOS: Task-agnostic Gradient Clustered Coreset Selection for Instruction Tuning Data
 - Towards Sustainable Learning: Coresets for Data-efficient Deep Learning
-
-### Diversity & Quality Based Methods
-- 3DS: Decomposed Difficulty Data Selection's Case Study on LLM Medical Domain Adaptation
-- Boosting LLM via Learning from Data Iteratively and Selectively
 - Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning
 - DELIFT: DATA EFFICIENT LANGUAGE MODEL INSTRUCTION FINE-TUNING
-- D2 Pruning: Message Passing for Balancing Diversity and Difficulty in Data Pruning
 - From Quantity to Quality: Boosting LLM Performance with Self-Guided Data Selection for Instruction Tuning
 - Improving Task Diversity in Label Efficient Supervised Finetuning of LLMs
 - INGENIOUS: Using Informative Data Subsets for Efficient Pre-Training of Language Models
@@ -133,7 +129,7 @@ A comprehensive collection of papers for literature review and research purposes
 - Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning
 - The Best Instruction-Tuning Data are Those That Fit
 - Data Distillation Can Be Like Vodka: Distilling More Times For Better Quality
-- Improving Influence-based Instruction Tuning Data Selection for Balanced Learning of Diverse Capabilities
+
 
 ---
 
@@ -151,17 +147,16 @@ A comprehensive collection of papers for literature review and research purposes
 - What is in Your Safe Data? Identifying Benign Data that Breaks Safety
 - What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning
 - Large-Scale Data Selection for Instruction Tuning
-- Can Data Diversity Enhance Learning Generalization?
+
 
 ---
 
 ## 📝 Statistics
 
-- **Total Papers**: 100+
+- **Total Papers**: 118
 - **Surrogate-Based Methods**: 76 papers
-- **Surrogate-Free Methods**: 44 papers  
-- **Benchmark Studies**: 11 papers
-- **Last Updated**: November 2024
+- **Surrogate-Free Methods**: 32 papers  
+- **Benchmark Studies**: 10 papers
 
 ## 🔧 Usage
 
