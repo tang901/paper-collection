@@ -14,8 +14,8 @@ A comprehensive collection of papers for literature review and research purposes
 
 *Methods that utilize external models or proxies for data selection.*
 
-- A Bayesian Approach to Data Point Selection
-- Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task
+- A Bayesian Approach to Data Point Selection (NeurIPS 2024)
+- Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task (Expert Systems with Applications 2025)
 - Active Sentence Learning by Adversarial Uncertainty Sampling in Discrete Space
 - Aligning Large Language Models to Follow Instructions and Hallucinate Less via Effective Data Filtering
 - AlpaGasus: Training A Better Alpaca with Fewer Data
