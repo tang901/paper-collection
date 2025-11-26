@@ -1,4 +1,4 @@
-# 📚 Research Papers Collection
+# 📚 Data Efficient LLM Trainging/Tuning
 
 A comprehensive collection of papers for literature review and research purposes.
 
